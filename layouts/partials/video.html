@@ -1,8 +1,8 @@
 <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/video.css" />
 
-<ul id="og-grid" class="og-grid">
+<ul class="videos-list">
   {{ range .videos_list }} {{ $id := resources.Get .id }}
-  <li class="videos-list">
+  <li>
     <div class="list-item">
       <div class="video-container">
         <iframe src="https://www.youtube.com/embed/{{ .id }}" title="{{ .title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

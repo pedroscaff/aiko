@@ -152,17 +152,4 @@
       End About Me
     =============================== -->
 
-{{ if .Site.Data.content.funfacts.enable }} {{ with .Site.Data.content.funfacts
-}}
-<div class="fun-facts container pt-5">
-  {{ range .funfacts_list }}
-  <div class="fun-fact-holder">
-    <img class="img-fluid" src="{{ .image | relURL }}" alt="{{ .name }}" />
-    <p class="fact-counter count" data-count="{{ .count }}">0</p>
-    <p>{{ .name }}</p>
-  </div>
-  {{ end }}
-</div>
-{{ end }} {{ end }}
-
 {{- partial "footer.html" . -}} {{ end }}
