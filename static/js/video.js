@@ -1,4 +1,4 @@
-function handleVideoPlay(target, videoId) {
+function handleVideoPlay(target) {
   const container = target.getElementsByClassName('video-iframe')[0];
   const iframe = container.getElementsByTagName('iframe')[0];
   iframe.setAttribute('src', `${iframe.src}?autoplay=1`);
