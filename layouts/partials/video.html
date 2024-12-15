@@ -3,18 +3,31 @@
 <ul class="videos-list">
   {{ range .videos_list }} {{ $id := resources.Get .id }}
   <li>
-    <div class="list-item">
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/{{ .id }}" title="{{ .title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-      <div class="video-description">
-        <h4>
-          {{ $content := .title }} 
-          {{ $content = replace $content "\n" "<br>" | safeHTML }}
-          {{ $content }}
-        </h4>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md video-container" onclick="handleVideoPlay(this, {{ .id }})">
+          <div class="video-preview-container">
+            <div class="icon-play-circle">
+              <i class="icon-play fa fa-sharp fa-play"></i>
+            </div>
+            <img class="img-fluid" src="https://img.youtube.com/vi/{{ .id }}/maxresdefault.jpg">
+          </div>
+          <div class="embed-responsive embed-responsive-16by9 video-iframe video-disabled">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ .id }}" title="{{ .title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md description">
+          <h4>
+            {{ $content := .title }} 
+            {{ $content = replace $content "\n" "<br>" | safeHTML }}
+            {{ $content }}
+          </h4>
+        </div>
       </div>
     </div>
+    <hr>
   </li>
   {{ end }}
 </ul>
+
+<script src="{{.Site.BaseURL}}js/video.js"></script>
