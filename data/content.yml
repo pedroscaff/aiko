@@ -9,7 +9,7 @@ hero:
     - 'Synchronsprecherin'
 
   # hero background image
-  bg_image: 'images/aiko-background.jpg'
+  bg_image: 'images/aiko-background-2.jpg'
   # optional mobile breakpoint background
   mobile_bg_image: 'images/aiko-background.jpg'
 
