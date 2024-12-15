@@ -55,9 +55,10 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
+          echo "deploying to ${{ steps.pages.outputs.base_url }}"
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/aiko"
+            --baseURL "${{ steps.pages.outputs.base_url }}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
