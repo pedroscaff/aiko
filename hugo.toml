@@ -14,11 +14,16 @@ weight = 1
 [[menu.main]]
 name = "About me"
 URL = "#about"
-weight = 2
+weight = 4
 
 [[menu.main]]
 name = "Videos"
 URL = "#videos"
+weight = 2
+
+[[menu.main]]
+name = "Pictures"
+URL = "#pictures"
 weight = 3
 
 ############################# Plugins ##############################
