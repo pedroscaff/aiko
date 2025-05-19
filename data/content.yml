@@ -18,29 +18,20 @@ videos:
   enable: true
   title: 'Videos'
   videos_list:
-    - name: Hugo
+    - name: Liedfestival 2024
       id: My5-0IbGUgM
       title: |
         Liedfestival 2024
         Aiko Bormann und Lucas Huber Sierra
         Brahms: Verzagen
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 
-    - name: Hugo
-      id: My5-0IbGUgM
+    - name: Liedfestival 2024
+      id: spWsTUdNgow
       title: |
         Liedfestival 2024
         Aiko Bormann und Lucas Huber Sierra
-        Brahms: Verzagen
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+        Franz Schubert: An die untergehende Sonne D 457 (Kosegarten)
 
-    - name: Hugo
-      id: My5-0IbGUgM
-      title: |
-        Liedfestival 2024
-        Aiko Bormann und Lucas Huber Sierra
-        Brahms: Verzagen
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 ########################### About ##################################
 about:
   enable: true
@@ -50,7 +41,7 @@ about:
   button:
     enable: true
     label: 'DOWNLOAD MY RESUME'
-    link: #
+    link: aiko-bormann-resume.pdf
     icon: 'fa-download'
 
 ########################### Portfolio #############################
@@ -58,16 +49,12 @@ portfolio:
   enable: true
   title: 'Pictures'
   portfolio_list:
-    - name: Hugo
+    - name: Heidelberger Fruehling
       image: 'images/aiko-buehne-1.jpg'
-      url: https://gohugo.io
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+      description: |
+        Die Sängerin hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024. 
 
-    - name: Hugo Themes
+    - name: Heidelberger Fruehling
       image: 'images/aiko-buehne-2.jpg'
-      url: https://gohugo.io
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
-
-    - name: Just A Design
-      image: 'images/aiko-buehne-1.jpg'
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+      description: |
+        Die Sängerin hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024. 
