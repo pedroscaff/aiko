@@ -36,10 +36,6 @@
   cursor: pointer !important;
 }
 
-.video-description {
-  flex: 1 1 0px;
-}
-
 .video-disabled {
   display: none;
 }
@@ -48,14 +44,13 @@
   z-index: 11;
 }
 
-.video-description > h4 {
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
 /* matches mobile-menu trigger */
 @media screen and (max-width: 765px) {
   .videos-list {
     padding: 0 5px;
+  }
+  .video-description {
+    padding-top: 1px;
+    font-size: 1em;
   }
 }

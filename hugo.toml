@@ -12,20 +12,36 @@ URL = "#header"
 weight = 1
 
 [[menu.main]]
-name = "About me"
-URL = "#about"
-weight = 4
-
-[[menu.main]]
 name = "Videos"
 URL = "#videos"
 weight = 2
 
 [[menu.main]]
-name = "Pictures"
+name = "Bilder"
 URL = "#pictures"
 weight = 3
 
+[[menu.main]]
+name = "Über mich"
+URL = "#about"
+weight = 4
+
+[[menu.main]]
+name = "Kontakt"
+URL = "#about"
+weight = 5
+
+#################### default parameters ################################
+[params]
+copyright = "Copyright Aiko Bormann &copy;"
+# Meta data
+description = "Personal Portfolio"
+author = "Pedro Scaff"
+favicon = "images/favicon.png"
+
+[[params.social]]
+icon = "fas fa-envelope"
+link = "mailto:aikobormann@gmail.com"
 ############################# Plugins ##############################
 
 # CSS Plugins

@@ -16,8 +16,8 @@
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ .id }}" title="{{ .title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="col-md description">
-          <h4>
+        <div class="col-md">
+          <h4 class="video-description">
             {{ $content := .title }} 
             {{ $content = replace $content "\n" "<br>" | safeHTML }}
             {{ $content }}

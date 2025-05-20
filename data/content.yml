@@ -35,13 +35,13 @@ videos:
 ########################### About ##################################
 about:
   enable: true
-  image: 'images/aiko-background.jpg'
-  title: 'THIS IS ME'
-  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
+  image: 'images/aiko-about-me.jpg'
+  title: 'Über mich'
+  content: Hallo und Willkommen auf meiner Webseite. Bei Fragen und Kontaktanfrage kontaktieren Sie mich gerne [per E-Mail](mailto:aikobormann@gmail.com)!
   button:
     enable: true
-    label: 'DOWNLOAD MY RESUME'
-    link: aiko-bormann-resume.pdf
+    label: 'LEBENSLAUF HERUNTERLADEN'
+    link: AikoBormannLebenslauf.pdf
     icon: 'fa-download'
 
 ########################### Portfolio #############################
@@ -49,12 +49,23 @@ portfolio:
   enable: true
   title: 'Pictures'
   portfolio_list:
-    - name: Heidelberger Fruehling
+    - name: Heidelberger Frühling
       image: 'images/aiko-buehne-1.jpg'
+      # description: Ich hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau.
       description: |
-        Die Sängerin hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024. 
+        loram ipsum
+        123
 
-    - name: Heidelberger Fruehling
+    - name: Heidelberger Frühling
       image: 'images/aiko-buehne-2.jpg'
-      description: |
-        Die Sängerin hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024. 
+      description: Ich hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024.
+
+    - name: Heidelberger Frühling
+      image: 'images/aiko-buehne-3.jpg'
+      description: Ich hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024.
+    - name: Heidelberger Frühling
+      image: 'images/aiko-buehne-4.jpg'
+      description: Ich hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024.
+    - name: Heidelberger Frühling
+      image: 'images/aiko-buehne-5.jpg'
+      description: Ich hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024.
