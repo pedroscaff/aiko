@@ -17,11 +17,16 @@
           </div>
         </div>
         <div class="col-md">
-          <h4 class="video-description">
+          <h4 class="video-description title">
             {{ $content := .title }} 
             {{ $content = replace $content "\n" "<br>" | safeHTML }}
             {{ $content }}
           </h4>
+          <h5 class="video-description subtitle">
+            {{ $content := .subtitle }} 
+            {{ $content = replace $content "\n" "<br>" | safeHTML }}
+            {{ $content }}
+          </h5>
         </div>
       </div>
     </div>

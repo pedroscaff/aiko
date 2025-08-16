@@ -2,6 +2,7 @@
 hero:
   title: "Aiko Bormann"
 
+  occupation: Sopran
   # animated text loop
   occupations:
     - 'Sopranistin'
@@ -21,16 +22,14 @@ videos:
     - name: Liedfestival 2024
       id: My5-0IbGUgM
       title: |
-        Liedfestival 2024
-        Aiko Bormann und Lucas Huber Sierra
-        Brahms: Verzagen
+        Brahms "Verzagen"
+      subtitle: Aiko Bormann und Lucas Huber Sierra
 
     - name: Liedfestival 2024
-      id: spWsTUdNgow
+      id: HN-0XoFG9V8
       title: |
-        Liedfestival 2024
-        Aiko Bormann und Lucas Huber Sierra
-        Franz Schubert: An die untergehende Sonne D 457 (Kosegarten)
+        Rebecca Clarke "The seal man"
+      subtitle: Aiko Bormann Und Wan-Yen Li
 
 ########################### About ##################################
 about:

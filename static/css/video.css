@@ -51,7 +51,12 @@
 }
 
 .video-description {
+  text-align: left;
   color: #5D6679;
+}
+
+.video-description.title {
+  font-weight: bold;
 }
 
 /* matches mobile-menu trigger */
