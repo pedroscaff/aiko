@@ -5,18 +5,18 @@ hero:
   # animated text loop
   occupations:
     - 'Sopranistin'
-    - 'Schauspielerin'
-    - 'Synchronsprecherin'
+    # - 'Schauspielerin'
+    # - 'Synchronsprecherin'
 
   # hero background image
-  bg_image: 'images/aiko-background-2.jpg'
+  bg_image: 'images/home.jpeg'
   # optional mobile breakpoint background
-  mobile_bg_image: 'images/aiko-background.jpg'
+  mobile_bg_image: 'images/home.jpeg'
 
 ############################## videos ################################
 videos:
   enable: true
-  title: 'Videos'
+  title: 'VIDEOS'
   videos_list:
     - name: Liedfestival 2024
       id: My5-0IbGUgM
@@ -47,7 +47,7 @@ about:
 ########################### Portfolio #############################
 portfolio:
   enable: true
-  title: 'Pictures'
+  title: 'PICTURES'
   portfolio_list:
     - name: Heidelberger Frühling
       image: 'images/aiko-buehne-1.jpg'

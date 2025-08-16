@@ -1,9 +1,15 @@
 .videos-list {
 	list-style: none;
-	padding: 20px 100px;
+	padding: 23px 100px;
 	margin: 0 auto;
 	text-align: center;
 	width: 100%;
+}
+
+.videos-list {
+  .container {
+    margin-bottom: 14px;
+  }
 }
 
 .videos-list li {
@@ -42,6 +48,10 @@
 
 .video-iframe {
   z-index: 11;
+}
+
+.video-description {
+  color: #5D6679;
 }
 
 /* matches mobile-menu trigger */

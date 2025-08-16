@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://aikobormann.de/'
 languageCode = 'en-us'
 # title = 'Aiko Bormann'
 theme = 'port'
@@ -17,17 +17,17 @@ URL = "#videos"
 weight = 2
 
 [[menu.main]]
-name = "Bilder"
+name = "Pictures"
 URL = "#pictures"
 weight = 3
 
 [[menu.main]]
-name = "Über mich"
+name = "About me"
 URL = "#about"
 weight = 4
 
 [[menu.main]]
-name = "Kontakt"
+name = "Contact"
 URL = "#about"
 weight = 5
 
@@ -41,7 +41,7 @@ favicon = "images/favicon.png"
 
 [[params.social]]
 icon = "fas fa-envelope"
-link = "mailto:aikobormann@gmail.com"
+link = "mailto:kontakt@aikobormann.de"
 ############################# Plugins ##############################
 
 # CSS Plugins
