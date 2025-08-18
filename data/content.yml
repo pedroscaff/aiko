@@ -48,28 +48,32 @@ portfolio:
   enable: true
   title: 'PICTURES'
   portfolio_list:
-    - name: Heidelberger Frühling
+    - id: heidelberger-fruehling
+      title: Heidelberger Frühling
       image: 'images/heidelberger-fruehling.jpg'
       description: |
         2023/2024 nahm die Sopranistin an der Liedakademie des Heidelberger Frühlings unter der Leitung von Thomas Hampson teil.
-        Hier sind einige Eindrücke aus den Konzerten im Pierre-Boulez-Saal in Berlin und in der Alten Universität in Heidelberg.
-        <hr>
+        Hier sind einige Eindrücke aus den Konzerten im Pierre-Boulez-Saal in Berlin und in der Alten Universität in Heidelberg.<hr>
         Foto: Susanne Lencinas
 
-    - name: Liedakademie LIEDBASEL
+    - id: lied-basel-1
+      title: Liedakademie LIEDBASEL
       image: 'images/lied-basel-1.jpeg'
       description: |
         Im Jahr 2025 wurde sie mit ihrer Liedduo-Partnerin Wan-Yen Li zur Liedakademie LIEDBASEL eingeladen.
         Hier sind einige Eindrücke von den Eröffnungs- und Abschlusskonzerten.<hr>
         <h5>Kritik</h5>
         "Aiko Bormann verfügt über eine sehr sicher sitzende Stimme und gestaltete die Lieder mit viel Ausdruck und perfekter Aussprache."
-        Rhein-Neckar-Zeitung GmbH
+        Rhein-Neckar-Zeitung GmbH<hr>
+        Foto: Benno Hunziker
 
-    - name: Liedakademie LIEDBASEL
+    - id: lied-basel-1
+      title: Liedakademie LIEDBASEL
       image: 'images/lied-basel-2.jpeg'
       description: |
         Im Jahr 2025 wurde sie mit ihrer Liedduo-Partnerin Wan-Yen Li zur Liedakademie LIEDBASEL eingeladen.
         Hier sind einige Eindrücke von den Eröffnungs- und Abschlusskonzerten.<hr>
         <h5>Kritik</h5>
         "Aiko Bormann verfügt über eine sehr sicher sitzende Stimme und gestaltete die Lieder mit viel Ausdruck und perfekter Aussprache."
-        Rhein-Neckar-Zeitung GmbH
+        Rhein-Neckar-Zeitung GmbH<hr>
+        Foto: Benno Hunziker

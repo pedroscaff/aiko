@@ -129,9 +129,9 @@
       <ul id="og-grid" class="og-grid">
         {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
         $big_image := $image.Fit "780x500" }} {{ $sm_image := $image.Fill
-        "390x250" }} {{ $parsed_name := replace .name "." "" }}
+        "390x250" }}
         <li>
-          <div id="description-{{ $parsed_name | urlize }}" class="hidden">
+          <div id="description-{{ .id }}" class="hidden">
             {{ $content := .description }} 
             {{ $content = replace $content "\n" "<br>" | safeHTML }}
             {{ $content }}
@@ -139,12 +139,13 @@
           <a
             href="{{ .url }}"
             data-largesrc="{{ $big_image.RelPermalink }}"
-            data-title="{{ .name }}"
+            data-title="{{ .title }}"
+            data-id="{{ .id }}"
             data-buttontext="SEE SITE"
           >
             <img
               src="{{ $sm_image.RelPermalink }}"
-              alt="{{ $parsed_name }} image"
+              alt="{{ .title }} image"
             />
           </a>
         </li>
