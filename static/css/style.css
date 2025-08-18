@@ -5,3 +5,8 @@
 @supports (font-variation-settings: normal) {
   :root { font-family: InterVariable, sans-serif; }
 }
+
+/* this is the background when expanding a galery picture */
+.og-expander {
+  background: #fff;
+}
