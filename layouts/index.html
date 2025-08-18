@@ -28,48 +28,6 @@
     =============================== -->
 
 <!-- =============================
-       Start Portfolio
-    =============================== -->
-{{ if .Site.Data.content.portfolio.enable }} {{ with
-.Site.Data.content.portfolio }}
-<section class="portfolio" id="pictures">
-  <div class="container-fluid text-center">
-    <div class="row portfolio-holder text-left">
-      <div class="col-12 text-center">
-        <h2>{{ .title }}</h2>
-      </div>
-      <ul id="og-grid" class="og-grid">
-        {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
-        $big_image := $image.Fill "780x500 jpg" }} {{ $sm_image := $image.Fill
-        "395x250 jpg" }} {{ $parsed_name := replace .name "." "" }}
-        <li>
-          <p id="description-{{ $parsed_name | urlize }}" class="hidden">
-            {{ .description | markdownify }}
-          </p>
-          <a
-            href="{{ .url }}"
-            data-largesrc="{{ $big_image.RelPermalink }}"
-            data-title="{{ .name }}"
-            data-buttontext="SEE SITE"
-          >
-            <img
-              src="{{ $sm_image.RelPermalink }}"
-              alt="{{ $parsed_name }} image"
-            />
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </div>
-</section>
-{{ end }} {{ end }}
-
-<!-- =============================
-       End Portfolio
-    =============================== -->
-
-<!-- =============================
        Start About Me
     =============================== -->
 <section class="about-me" id="about">
@@ -155,6 +113,50 @@
 </section>
 <!-- =============================
       End About Me
+    =============================== -->
+
+<!-- =============================
+       Start Portfolio
+    =============================== -->
+{{ if .Site.Data.content.portfolio.enable }} {{ with
+.Site.Data.content.portfolio }}
+<section class="portfolio" id="pictures">
+  <div class="container-fluid text-center">
+    <div class="row portfolio-holder text-left">
+      <div class="col-12 text-center">
+        <h2>{{ .title }}</h2>
+      </div>
+      <ul id="og-grid" class="og-grid">
+        {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
+        $big_image := $image.Fit "780x500" }} {{ $sm_image := $image.Fill
+        "390x250" }} {{ $parsed_name := replace .name "." "" }}
+        <li>
+          <div id="description-{{ $parsed_name | urlize }}" class="hidden">
+            {{ $content := .description }} 
+            {{ $content = replace $content "\n" "<br>" | safeHTML }}
+            {{ $content }}
+          </div>
+          <a
+            href="{{ .url }}"
+            data-largesrc="{{ $big_image.RelPermalink }}"
+            data-title="{{ .name }}"
+            data-buttontext="SEE SITE"
+          >
+            <img
+              src="{{ $sm_image.RelPermalink }}"
+              alt="{{ $parsed_name }} image"
+            />
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
+
+<!-- =============================
+       End Portfolio
     =============================== -->
 
 {{- partial "footer.html" . -}} {{ end }}

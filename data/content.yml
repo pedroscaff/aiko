@@ -49,22 +49,27 @@ portfolio:
   title: 'PICTURES'
   portfolio_list:
     - name: Heidelberger Frühling
-      image: 'images/aiko-buehne-1.jpg'
-      # description: Ich hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau.
+      image: 'images/heidelberger-fruehling.jpg'
       description: |
-        loram ipsum
-        123
+        2023/2024 nahm die Sopranistin an der Liedakademie des Heidelberger Frühlings unter der Leitung von Thomas Hampson teil.
+        Hier sind einige Eindrücke aus den Konzerten im Pierre-Boulez-Saal in Berlin und in der Alten Universität in Heidelberg.
+        <hr>
+        Foto: Susanne Lencinas
 
-    - name: Heidelberger Frühling
-      image: 'images/aiko-buehne-2.jpg'
-      description: Ich hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024.
+    - name: Liedakademie LIEDBASEL 1
+      image: 'images/lied-basel-1.jpeg'
+      description: |
+        Im Jahr 2025 wurde sie mit ihrer Liedduo-Partnerin Wan-Yen Li zur Liedakademie LIEDBASEL eingeladen.
+        Hier sind einige Eindrücke von den Eröffnungs- und Abschlusskonzerten.<hr>
+        <h5>Kritik</h5>
+        "Aiko Bormann verfügt über eine sehr sicher sitzende Stimme und gestaltete die Lieder mit viel Ausdruck und perfekter Aussprache."
+        Rhein-Neckar-Zeitung GmbH
 
-    - name: Heidelberger Frühling
-      image: 'images/aiko-buehne-3.jpg'
-      description: Ich hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024.
-    - name: Heidelberger Frühling
-      image: 'images/aiko-buehne-4.jpg'
-      description: Ich hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024.
-    - name: Heidelberger Frühling
-      image: 'images/aiko-buehne-5.jpg'
-      description: Ich hatte die Möglichkeit, in den Jahren 2023/2024 an der Liedakademie des Heidelberger Frühlings teilzunehmen. Diese bestand aus intensiven Meisterkursen u.a. bei Thomas Hampson, Susan Manoff und Malcolm Martineau. Insgesamt gab es vier intensive Arbeitsphasen mit einem Workshop im Pierre Boulez Saal Berlin im Januar 2024 und ein Abschlusskonzert im Juni 2024.
+    - name: Liedakademie LIEDBASEL 2
+      image: 'images/lied-basel-2.jpeg'
+      description: |
+        Im Jahr 2025 wurde sie mit ihrer Liedduo-Partnerin Wan-Yen Li zur Liedakademie LIEDBASEL eingeladen.
+        Hier sind einige Eindrücke von den Eröffnungs- und Abschlusskonzerten.<hr>
+        <h5>Kritik</h5>
+        "Aiko Bormann verfügt über eine sehr sicher sitzende Stimme und gestaltete die Lieder mit viel Ausdruck und perfekter Aussprache."
+        Rhein-Neckar-Zeitung GmbH
