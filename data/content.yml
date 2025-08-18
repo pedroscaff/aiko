@@ -34,9 +34,9 @@ videos:
 ########################### About ##################################
 about:
   enable: true
-  image: 'images/aiko-about-me.jpg'
+  image: 'images/aiko-background.jpg'
   title: 'Über mich'
-  content: Hallo und Willkommen auf meiner Webseite. Bei Fragen und Kontaktanfrage kontaktieren Sie mich gerne [per E-Mail](mailto:aikobormann@gmail.com)!
+  content: Hallo und Willkommen auf meiner Webseite. Bei Fragen und Kontaktanfrage kontaktieren Sie mich gerne [per E-Mail](mailto:kontakt@aikobormann.de)!
   button:
     enable: true
     label: 'LEBENSLAUF HERUNTERLADEN'
