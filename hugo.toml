@@ -1,6 +1,6 @@
 baseURL = 'https://aikobormann.de/'
 languageCode = 'en-us'
-# title = 'Aiko Bormann'
+title = 'Aiko Bormann'
 theme = 'port'
 
 ############################## navigation ###############################
@@ -42,6 +42,10 @@ author = "Pedro Scaff"
 [[params.social]]
 icon = "fas fa-envelope"
 link = "mailto:kontakt@aikobormann.de"
+
+[[params.social]]
+icon = "fa-brands fa-youtube"
+link = "https://www.youtube.com/playlist?list=PLWnX0l4-wifdHY6tQIZVdopU3XNCzpmW3"
 
 [imaging]
 quality = 100

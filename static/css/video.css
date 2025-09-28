@@ -59,6 +59,20 @@
   font-weight: bold;
 }
 
+.youtube-playlist-container {
+  color: #5D6679;
+  font-size: 1.25em;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+  .youtube-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 2.5em;
+  }
+}
+
 /* matches mobile-menu trigger */
 @media screen and (max-width: 765px) {
   .videos-list {

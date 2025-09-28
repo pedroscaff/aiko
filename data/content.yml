@@ -20,15 +20,21 @@ videos:
   title: 'VIDEOS'
   videos_list:
     - name: Liedfestival 2024
-      id: My5-0IbGUgM
-      title: |
-        Brahms "Verzagen"
-      subtitle: Aiko Bormann und Lucas Huber Sierra
-
-    - name: Liedfestival 2024
-      id: HN-0XoFG9V8
+      id: GSJvQzpqCF8
       title: |
         Rebecca Clarke "The seal man"
+      subtitle: Aiko Bormann und Wan-Yen Li
+
+    - name: Liedfestival 2024
+      id: spWsTUdNgow
+      title: |
+        Schubert "An die untergehende Sonne D457"
+      subtitle: Aiko Bormann und Lucas Huber Sierra
+
+    - name:
+      id: Sa_P_zQ8spM
+      title: |
+        Hugo Wolf "Auf einer Wanderung (Mörike)"
       subtitle: Aiko Bormann und Wan-Yen Li
 
 ########################### About ##################################
@@ -36,7 +42,14 @@ about:
   enable: true
   image: 'images/aiko-background.jpg'
   title: 'Über mich'
-  content: Hallo und Willkommen auf meiner Webseite. Bei Fragen und Kontaktanfrage kontaktieren Sie mich gerne [per E-Mail](mailto:kontakt@aikobormann.de)!
+  content: |
+    Aiko Bormann ist Berliner Sopranistin mit einem Repertoire das Lied, Oper und zeitgenössische Musik umfasst.
+
+    Im Mai 2025 nahm sie bei dem renommierten Festival LIEDBasel als Akademistin teil.
+
+    2023-2024 wurde sie als Stipendiatin in die Liedakademie Heidelberger Frühling unter der Leitung von Thomas Hampson aufgenommen, wo sie im Mai 2025 mit weiteren Alumni des Heidelberger Frühlings im Völkerkundemuseum Heidelbergs unter dem Titel „Objects of Interest“ zahlreiche erfolgreiche Konzerte gestaltete.
+
+    Bei Fragen und Kontaktanfrage kontaktieren Sie mich gerne [per E-Mail](mailto:kontakt@aikobormann.de)!
   button:
     enable: true
     label: 'LEBENSLAUF HERUNTERLADEN'
@@ -67,9 +80,20 @@ portfolio:
         Rhein-Neckar-Zeitung GmbH<hr>
         Foto: Benno Hunziker
 
-    - id: lied-basel-1
+    - id: lied-basel-2
       title: Liedakademie LIEDBASEL
       image: 'images/lied-basel-2.jpeg'
+      description: |
+        Im Jahr 2025 wurde sie mit ihrer Liedduo-Partnerin Wan-Yen Li zur Liedakademie LIEDBASEL eingeladen.
+        Hier sind einige Eindrücke von den Eröffnungs- und Abschlusskonzerten.<hr>
+        <h5>Kritik</h5>
+        "Aiko Bormann verfügt über eine sehr sicher sitzende Stimme und gestaltete die Lieder mit viel Ausdruck und perfekter Aussprache."
+        Rhein-Neckar-Zeitung GmbH<hr>
+        Foto: Benno Hunziker
+
+    - id: nico-rademacher-1
+      title: Liedakademie LIEDBASEL
+      image: 'images/nico-rademacher-1.jpeg'
       description: |
         Im Jahr 2025 wurde sie mit ihrer Liedduo-Partnerin Wan-Yen Li zur Liedakademie LIEDBASEL eingeladen.
         Hier sind einige Eindrücke von den Eröffnungs- und Abschlusskonzerten.<hr>

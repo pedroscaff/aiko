@@ -10,3 +10,15 @@
 .og-expander {
   background: #fff;
 }
+
+/* hide "Aiko Bormann" from the top left */
+.desktop-menu-logo {
+  display: none;
+}
+
+
+@media screen and (max-width: 765px) {
+  .head-holder {
+    padding-top: 150px;
+  }
+}
