@@ -60,6 +60,7 @@
 }
 
 .youtube-playlist-container {
+  margin-top: 10px;
   color: #5D6679;
   font-size: 1.25em;
   cursor: pointer;
