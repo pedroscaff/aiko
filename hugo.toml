@@ -28,8 +28,7 @@ weight = 3
 
 [[menu.main]]
 name = "Contact"
-URL = "#contact"
-weight = 5
+URL = "mailto:kontakt@aikobormann.de"
 
 #################### default parameters ################################
 [params]

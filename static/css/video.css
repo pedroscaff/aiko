@@ -69,6 +69,8 @@
   .youtube-link {
     text-decoration: none;
     color: inherit;
+  }
+  .youtube-icon {
     font-size: 2.5em;
   }
 }
