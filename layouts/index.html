@@ -1,5 +1,4 @@
-{{ define "main" }} {{- partial "menu.html" . -}} {{- partial "header.html" .
--}}
+{{ define "main" }} {{- partial "menu.html" . -}} {{- partial "header.html" . -}}
 
 <!-- HTML in your document's head -->
 <link rel="preconnect" href="https://rsms.me/">
@@ -126,31 +125,7 @@
       <div class="col-12 text-center">
         <h2>{{ .title }}</h2>
       </div>
-      <ul id="og-grid" class="og-grid">
-        {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
-        $big_image := $image.Fit "780x500" }} {{ $sm_image := $image.Fit
-        "390x250" }}
-        <li>
-          <div id="description-{{ .id }}" class="hidden">
-            {{ $content := .description }} 
-            {{ $content = replace $content "\n" "<br>" | safeHTML }}
-            {{ $content }}
-          </div>
-          <a
-            href="{{ .url }}"
-            data-largesrc="{{ $big_image.RelPermalink }}"
-            data-title="{{ .title }}"
-            data-id="{{ .id }}"
-            data-buttontext="SEE SITE"
-          >
-            <img
-              src="{{ $sm_image.RelPermalink }}"
-              alt="{{ .title }} image"
-            />
-          </a>
-        </li>
-        {{ end }}
-      </ul>
+      {{- partial "gallery.html" .}}
     </div>
   </div>
 </section>

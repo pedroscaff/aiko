@@ -1,0 +1,11 @@
+<ul class="images-list">
+  {{ range .portfolio_list }}
+    {{ $id := resources.Get .id }}
+    {{ $title := resources.Get .title }}
+    {{ $image := resources.Get .image }}
+
+  <li>
+    <img src="{{ $image.RelPermalink }}" alt="">
+  </li> 
+  {{ end }}
+</ul>
