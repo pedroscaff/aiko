@@ -30,6 +30,10 @@ weight = 2
 name = "Contact"
 URL = "mailto:kontakt@aikobormann.de"
 
+[[menu.main]]
+name = "Impressum"
+URL = "/impressum"
+
 #################### default parameters ################################
 [params]
 copyright = "Copyright Aiko Bormann &copy;"
