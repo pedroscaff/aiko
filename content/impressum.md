@@ -1,7 +1,7 @@
 +++
 title = 'Impressum'
 date = 2025-11-30T19:39:17+01:00
-draft = true
+draft = false
 [params]
   no_footer = true
   no_header = true
