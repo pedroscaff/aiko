@@ -37,6 +37,12 @@ videos:
         Hugo Wolf "Auf einer Wanderung (Mörike)"
       subtitle: Aiko Bormann und Wan-Yen Li
 
+    - name:
+      id: IenuKARON2g
+      title: |
+        Albert Roussel "Coeur en péril"
+      subtitle: Aiko Bormann und Wan-Yen Li
+
 ########################### About ##################################
 about:
   enable: true
