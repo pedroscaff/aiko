@@ -16,9 +16,48 @@
   display: none;
 }
 
-
 @media screen and (max-width: 765px) {
   .head-holder {
     padding-top: 150px;
   }
+}
+
+#about-me-more-control {
+  display: none;
+}
+.about-me-more-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+
+.about-me-more-label {
+  /* needed this due to some auto-styling being applied */
+  position: relative;
+  height: auto;
+  width: auto;
+  top: 0;
+  right: 0;
+  /* needed this due to some auto-styling being applied */
+  text-indent: -9999px;
+  line-height: 0; /* Collapse the original line */
+}
+
+.about-me-more-label::after {
+  content: "MEHR LESEN";
+  text-indent: 0;
+  display: block;
+  line-height: initial; /* New content takes up original line height */
+}
+
+#about-me-more-control:checked + label::after {
+  content: "WENIGER LESEN";
+}
+
+#about-me-more-control:checked ~ div {
+  display: block;
+}
+
+#about-me-more-text {
+  display: none;
 }

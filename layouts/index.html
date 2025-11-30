@@ -24,6 +24,13 @@
         <div class="text-holder">
           <h1>{{ .title | safeHTML }}</h1>
           <p>{{ .content | markdownify | emojify }}</p>
+          <div class="about-me-more-container">
+            <input type="checkbox" id="about-me-more-control"/>
+            <label class="button about-me-more-label" for="about-me-more-control"></label>
+            <div id="about-me-more-text">
+              <p>{{ .moreContent | markdownify | emojify }}</p>
+            </div>
+          </div>
           {{ if .button.enable }} {{ with .button }}
           <a
             href="{{ .link | relURL }}"
