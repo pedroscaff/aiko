@@ -40,7 +40,7 @@ copyright = "Copyright Aiko Bormann &copy;"
 # Meta data
 description = "Personal Portfolio"
 author = "Pedro Scaff"
-# favicon = "images/favicon.png"
+favicon = "data:;base64,iVBORw0KGgo="
 
 [[params.social]]
 icon = "fas fa-envelope"
