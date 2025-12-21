@@ -74,6 +74,8 @@ link = "vendor/js/jquery-3.5.1.min.js"
 [[params.plugins.js]]
 link = "vendor/js/jquery.waypoints.js"
 [[params.plugins.js]]
+link = "vendor/js/bootstrap-4.5.3.min.js"
+[[params.plugins.js]]
 link = "plugins/text-animation/text-animation.js"
 [[params.plugins.js]]
 link = "plugins/hugrid/hugrid.min.js"
