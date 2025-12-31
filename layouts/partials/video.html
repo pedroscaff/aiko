@@ -5,16 +5,15 @@
   <li>
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md video-container" onclick="handleVideoPlay(this, {{ .id }})">
-          <div class="video-preview-container">
-            <div class="icon-play-circle">
-              <i class="icon-play fa fa-sharp fa-play"></i>
+        <div class="col-md video-container">
+          <a href="https://www.youtube.com/watch?v={{ .id}}&list=PLWnX0l4-wifdHY6tQIZVdopU3XNCzpmW3" target="_blank">
+            <div class="video-preview-container">
+              <div class="icon-play-circle">
+                <i class="icon-play fa fa-sharp fa-play"></i>
+              </div>
+              <img class="img-fluid" src="https://img.youtube.com/vi/{{ .id }}/maxresdefault.jpg" alt="preview for video {{ .title }}">
             </div>
-            <img class="img-fluid" src="https://img.youtube.com/vi/{{ .id }}/maxresdefault.jpg" alt="preview for video {{ .title }}">
-          </div>
-          <div class="embed-responsive embed-responsive-16by9 video-iframe video-disabled">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ .id }}" title="{{ .title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
+          </a>
         </div>
         <div class="col-md">
           <h4 class="video-description title">
@@ -44,5 +43,3 @@
     </div>
   </li>
 </ul>
-
-<script src="{{.Site.BaseURL}}js/video.js"></script>
