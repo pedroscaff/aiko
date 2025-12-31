@@ -12,7 +12,7 @@ hero:
   # hero background image
   bg_image: 'images/home.jpeg'
   # optional mobile breakpoint background
-  mobile_bg_image: 'images/home.jpeg'
+  mobile_bg_image: 'images/home-mobile.webp'
 
 ############################## videos ################################
 videos:
