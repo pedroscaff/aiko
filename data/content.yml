@@ -46,7 +46,7 @@ videos:
 ########################### About ##################################
 about:
   enable: true
-  image: 'images/aiko-background.jpg'
+  image: 'images/aiko-about-me.webp'
   title: 'ABOUT ME'
   content: |
     Aiko Bormann ist Berliner Sopranistin mit einem Repertoire das Lied, Oper und zeitgenössische Musik umfasst.
