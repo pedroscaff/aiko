@@ -1,5 +1,5 @@
 baseURL = 'https://aikobormann.de/'
-languageCode = 'en-us'
+languageCode = 'de'
 title = 'Aiko Bormann'
 theme = 'port'
 
