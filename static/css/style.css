@@ -61,3 +61,6 @@
 #about-me-more-text {
   display: none;
 }
+.about-me {
+  text-align: justify;
+}
