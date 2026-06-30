@@ -2,10 +2,10 @@
 hero:
   title: "Aiko Bormann"
 
-  occupation: Sopran
+  occupation: Sängerin
   # animated text loop
   occupations:
-    - 'Sopranistin'
+    - 'Sängerin'
     # - 'Schauspielerin'
     # - 'Synchronsprecherin'
 
@@ -49,14 +49,16 @@ about:
   image: 'images/aiko-about-me.webp'
   title: 'ABOUT ME'
   content: |
+    Die deutsch-japanische Sängerin Aiko Bormann beeindruckt durch ihr vielseitiges Repertoire, dass von Kunstlied über Oper bis hin zu Oratorium reicht.
     Zu Beginn des Jahres 2026 gab sie ihr Solo-Debüt in der Philharmonie Berlin mit Beethovens 9. Sinfonie.
 
-    Im März trat sie erstmals als Solistin in Irland in Karl Jenkins’ Stabat Mater auf. Ein weiterer Höhepunkt der Saison 2026 wird ihr japanisches Solo-Debüt mit Beethovens 9. Sinfonie in Tokio im August sein.
-    Im Februar 2025 sang sie im Rahmen der International Conducting Academy Berlin die Partie der Anna aus der Oper Die sieben Todsünden von Kurt Weill in konzertanter Aufführung.
+    Im März trat sie erstmals als Solistin in Irland in Karl Jenkins’ _Stabat Mater_ auf. Ein weiterer Höhepunkt der Saison 2026 wird ihr japanisches Solo-Debüt mit Beethovens 9. Sinfonie in Tokio im August sein.
+    Im Februar 2025 sang sie im Rahmen der International Conducting Academy Berlin die Partie der Anna aus der Oper _Die sieben Todsünden_ von Kurt Weill in konzertanter Aufführung.
+
+    Seit ihrem Abschluss an der Universität der Künste Berlin, legt Aiko Bormann den besonderen Schwerpunkt ihres künstlerischen Schaffens auf das Kunst lied.
 
     Bei Fragen und Kontaktanfrage kontaktieren Sie mich gerne [per E-Mail](mailto:kontakt@aikobormann.de)!
   moreContent: |
-    Seit ihrem Abschluss an der Universität der Künste Berlin, legt Aiko Bormann den besonderen Schwerpunkt ihres künstlerischen Schaffens auf das Kunst lied.
     Im Jahr 2023/2024 war sie Stipendiatin der Heidelberger Frühling Liedakademie und trat in diesem Rahmen bei der Schubert Woche im Pierre Boulez Saal in Berlin auf.
     2025 nahm sie an der renommierten Liedakademie LIEDBASEL in der Schweiz teil.
     Zuletzt wurde sie Preisträgerin des Art of Song Festival Maastricht 2026 (2. Preis).
